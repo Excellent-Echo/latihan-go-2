@@ -18,8 +18,4 @@ func main() {
 	} else {
 		fmt.Println(odd)
 	}
-
-	// for _, num := range data {
-	// fmt.Println(slice)
-	// }
 }
