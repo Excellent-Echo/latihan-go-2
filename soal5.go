@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	data := [10]string{"a", "i", "u", "e", "e", "o", "c", "d", "f", "g"}
+	data := [10]string{"H", "e", "l", "m", "i", "y", "u", "s", "u", "f"}
 	result := make([]string, 0)
 	middle := len(data) / 2
 
