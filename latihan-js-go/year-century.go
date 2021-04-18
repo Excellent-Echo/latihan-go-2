@@ -5,9 +5,7 @@ import (
 )
 
 func main() {
-	var (
-		year int
-	)
+	var year int
 
 	fmt.Print("input year: ")
 	fmt.Scanf("%d", &year)
