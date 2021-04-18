@@ -11,5 +11,5 @@ func main() {
 	for _, num := range array {
 		hasilPenjumlahan += num
 	}
-	fmt.Println(hasilPenjumlahan)
+	fmt.Println(hasilPenjumlahan) //27
 }
