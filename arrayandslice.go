@@ -42,17 +42,17 @@ func main() {
 
 	// }
 
-	// var number = [5]int{1, 2, 3, 4, 5}
+	var number = [5]int{1, 2, 3, 4, 5}
 
-	// slice1 := number[:3]
-	// slice2 := number[3:]
-	// slice3 := number[1:4]
-	// slice4 := number[:]
+	slice1 := number[:3]
+	slice2 := number[3:]
+	slice3 := number[1:4]
+	slice4 := number[:]
 
-	// fmt.Println(slice1, len(slice1), cap(slice1))
-	// fmt.Println(slice2, len(slice2), cap(slice2))
-	// fmt.Println(slice3, len(slice3), cap(slice3))
-	// fmt.Println(slice4, len(slice4), cap(slice4))
+	fmt.Println(slice1, len(slice1), cap(slice1))
+	fmt.Println(slice2, len(slice2), cap(slice2))
+	fmt.Println(slice3, len(slice3), cap(slice3))
+	fmt.Println(slice4, len(slice4), cap(slice4))
 
 	// append slice
 
@@ -76,13 +76,13 @@ func main() {
 
 	// fmt.Printf("data %v dengan tipe %T", slice2, slice2)
 
-	var number = [5]int{1, 2, 3, 4, 5}
+	// var number = [5]int{1, 2, 3, 4, 5}
 
-	var fromSlice = number[:]
-	var toSlice = make([]int, len(fromSlice), cap(fromSlice))
+	// var fromSlice = number[:]
+	// var toSlice = make([]int, len(fromSlice), cap(fromSlice))
 
-	copy(toSlice, fromSlice)
+	// copy(toSlice, fromSlice)
 
-	fmt.Println(toSlice, fromSlice)
+	// fmt.Println(toSlice, fromSlice)
 
 }

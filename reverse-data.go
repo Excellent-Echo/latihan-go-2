@@ -3,12 +3,14 @@ package main
 import "fmt"
 
 func main() {
-    var name string = "ronaldo"
-    var reverse []string
-    var len = len(name)
+    var (
+        name string = "ronaldo"
+        len         = len(name)
+        reverse []string
+    ) 
     
     
-	
+    
 	for i := len - 1; i >= 0; i-- {
         if string(name[i]) == string(""){
 
@@ -18,5 +20,6 @@ func main() {
 
         }
     }
+    
     fmt.Printf("%s", reverse)
 }
