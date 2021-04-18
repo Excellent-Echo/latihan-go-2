@@ -16,5 +16,6 @@ func deleteChars(str string) string {
 }
 
 func main() {
-	fmt.Println(deleteChars("potong bebek angsa"))
+	// fmt.Println(deleteChars("abc")) //kata harus lebih dari 3 huruf
+	fmt.Println(deleteChars("potong bebek angsa")) //otong bebek angs
 }
