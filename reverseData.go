@@ -13,5 +13,5 @@ func main() {
 			newArray = append(newArray, string(str[i]))
 		}
 	}
-	fmt.Println(newArray)
+	fmt.Println(newArray) // [g n a n a D]
 }

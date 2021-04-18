@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var number = [...]int{10, 120, 14, 50, 5}
+	var number = [...]int{8, 120, 12, 20, 5}
 
 	minNumber := number[0]
 	maxNumber := number[0]
@@ -30,4 +30,10 @@ func main() {
 	fmt.Println(maxNumber, "+", minNumber, "=", addition)
 	fmt.Println(maxNumber, "-", minNumber, "=", substraction)
 	fmt.Println("Hasil =", result)
+
+	/* Isi dari index array terkecil = 5
+```````Isi dari index array terbesar = 120
+```````120 + 5 = 125
+```````120 - 5 = 115
+	   sHasil = 240 */
 }
