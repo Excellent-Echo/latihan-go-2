@@ -15,8 +15,4 @@ func main() {
 	}
 
 	fmt.Println(sliceStr)
-
-	// for i := len(str) - 1; i >= 0; i-- {
-	// 	sliceStr[i] = string(str[i])
-	// }
 }
