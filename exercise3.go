@@ -10,13 +10,12 @@ func main() {
 	)
 
 	for _, value := range numArr {
-		if value < min {
+		switch {
+		case value < min:
 			min = value
-		}
-
-		if value > max {
+		case value > max:
 			max = value
 		}
 	}
-	fmt.Println((max + min) + (max - min))
+	fmt.Println("Hasil =", (max + min) + (max - min))
 }
