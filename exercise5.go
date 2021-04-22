@@ -3,16 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	var (
-		data = [...]string{"a", "i", "u", "e", "o"}
-		division = len(data) / 2
-		even = data[division - 1 : division + 1]
-		odd = data[division - 1 : len(data) - 1]
-	)
+	data := [...]string{"a", "i", "u", "e", "o"}
 
-	if len(data) % 2 == 0 {
-		fmt.Println(even)
-	} else {
-		fmt.Println(odd)
+	switch len(data) % 2 == 0 {
+	case true:
+		fmt.Println(data[(len(data) / 2) - 1 : (len(data) / 2) + 1]) //genap
+	case false:
+		fmt.Println(data[(len(data) / 2) - 1 : len(data) - 1]) //ganjil
 	}
 }
